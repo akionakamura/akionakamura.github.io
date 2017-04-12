@@ -13,7 +13,7 @@ injectTapEventPlugin();
 
 ReactDOM.render(
   <MuiThemeProvider>
-    <AppTabs value={'overview'} />
+    <AppTabs value={'hobbies'} />
   </MuiThemeProvider>,
   document.getElementById('root') as HTMLElement
 );
