@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import Construction from '../construction/Construction'
+
 class Career extends React.Component<any, any> {
   constructor() {
     super();
@@ -7,12 +9,7 @@ class Career extends React.Component<any, any> {
 
   render() {
     return (
-        <div>
-          <h2>Career</h2>
-          <p>
-              This is a career Resume.
-          </p>
-        </div>
+        <Construction />
     );
   }
 }

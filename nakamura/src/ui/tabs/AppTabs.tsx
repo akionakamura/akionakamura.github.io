@@ -28,7 +28,8 @@ const profileSubTitleStyle = {
   color: '#E0E0E0'
 } as React.CSSProperties
 const socialStyle = {
-  float: 'right'
+  float: 'right',
+  'margin-right': 20
 } as React.CSSProperties
 const tabsStyle = {
   background: '#2196F3'
