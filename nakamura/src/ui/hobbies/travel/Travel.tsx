@@ -93,7 +93,9 @@ class Travel extends React.Component<any, any> {
           <div className='travel'>
             <div className='travel-blockquote'>
               A journey is a person in itself; no two are alike. And all plans, safeguards, policing, and coercion are fruitless. We find that after years of struggle that we do not take a trip; a trip takes us.
-              – John Steinbeck
+              <br />
+              <br />
+              – John Steinbeck, Travels with Charley: In Search of America
             </div>
             <div className='travel-text'>
                 Travelling is one of my greatest passions. It all started when I lived in Italy as a child for around a year. Since then, I've also lived in Germany and the UK, and visited many other places.

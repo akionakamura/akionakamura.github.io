@@ -6,6 +6,8 @@ import Paper from 'material-ui/Paper';
 
 import Construction from '../construction/Construction'
 import Travel from './travel/Travel';
+import Beer from './beer/Beer';
+import Motorcycle from './motorcycle/Motorcycle';
 
 const travelIcon = <FontIcon className="material-icons">location_on</FontIcon>;
 const beerIcon = <FontIcon className="material-icons">local_drink</FontIcon>;
@@ -15,7 +17,7 @@ class Hobbies extends React.Component<any, any> {
   constructor() {
     super();
     this.state = {
-      selectedIndex: 0,
+      selectedIndex: 0
     };
   }
   select = (index) => this.setState({selectedIndex: index});
@@ -23,6 +25,14 @@ class Hobbies extends React.Component<any, any> {
       if (this.state.selectedIndex === 0) {
         return (
           <Travel />
+        );
+      } else if (this.state.selectedIndex === 1) {
+        return (
+          <Beer />
+        );
+      } else if (this.state.selectedIndex === 2) {
+        return (
+          <Motorcycle />
         );
       } else {
         return (
