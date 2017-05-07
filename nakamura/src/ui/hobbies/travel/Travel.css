@@ -59,21 +59,29 @@
   margin-left: 5%;
   width: 80%;
 }
+
 .travel-map-geo {
-  float: left;
-  margin-left: 5%;
-  margin-right: 2%;
+  margin: 0 auto;
+  max-width: 95%;
 }
 .travel-photo {
-  width: 100%;
+  width: inherit;
 }
 .travel-city-overlay {
   background: rgba(0, 0, 0, 0.7);
-  bottom: 25px;
+  bottom: 10px;
   color: white;
   font-family: 'Roboto', sans-serif;
   height: 27px;
   position: absolute;
   text-align: center;
-  width: 25%;
+  width: inherit;
+}
+@media only screen and (min-width: 800px) {
+  .travel-map-geo {
+    float: left;
+    margin-left: 5%;
+    margin-right: 2%;
+    max-width: 50%;
+  }
 }

@@ -3,7 +3,6 @@ import * as Promise from 'bluebird';
 
 import createPlotlyComponent from 'react-plotlyjs';
 import * as plotly from 'plotly.js/dist/plotly-geo.min.js';
-import * as Plotly from 'plotly.js/dist/plotly-basic.min.js';
 
 import Paper from 'material-ui/Paper';
 
@@ -14,10 +13,15 @@ import './Travel.css';
 
 const PlotlyComponent = createPlotlyComponent(plotly);
 
+const windowWidth = window.innerWidth;
+const windowHeight = window.innerHeight;
+const width = (windowWidth > 800) ? Math.min(Math.min(windowWidth * 0.25, windowHeight * 0.3), 300) : windowWidth * 0.5
+
 const photoStyle = {
-  width: '25%',
-  margin: 25,
-  'margin-top': 50,
+  width: width,
+  height: width,
+  margin: 5,
+  'margin-top': 15,
   display: 'inline-block'
 };
 
@@ -35,7 +39,7 @@ class Travel extends React.Component<any, any> {
   loadData() {
     console.log('Loading map data...')
     return new Promise((resolve, reject) =>
-        Plotly.d3.csv(require('./data.csv'), (err, rows) => {
+        plotly.d3.csv(require('./data.csv'), (err, rows) => {
           function unpack(key: string, asNumber?: boolean) {
               return rows.map(function(row: any) { 
                   const raw = row[key]
@@ -67,7 +71,7 @@ class Travel extends React.Component<any, any> {
         }))
   }
 
-  setDate() {
+  setData() {
     return this.loadData().tap((data) => {
       this.setState({
         data: data
@@ -78,7 +82,7 @@ class Travel extends React.Component<any, any> {
   }
   componentDidMount() {
       if (!this.state.started) {
-          this.setDate().tap(() => {
+          this.setData().tap(() => {
               this.setState({ loaded: true });
           })
       }
@@ -98,11 +102,16 @@ class Travel extends React.Component<any, any> {
               – John Steinbeck, Travels with Charley: In Search of America
             </div>
             <div className='travel-text'>
-                Travelling is one of my greatest passions. It all started when I lived in Italy as a child for around a year. Since then, I've also lived in Germany and the UK, and visited many other places.
-                Each point in the map bellow holds me a very dear memory, and I hope to keep expanding it.
+              Travelling is one of my greatest passions. It all started when I lived in Italy as a child for around a year.
+              Since then, I've also lived in Germany and the UK, besides my beloved homeland, and visited many other places.
+              I believe experiencing the new is always exciting and few things does it better than travelling. You have spontaneous adventures, stories for life and usually get to see the best in people.
+              You learn so much about yourself and others, you'll rarely come back the same. And food, there is always a different and awesome food right around the corner.
+              <br />
+              <br />
+              Each point in the map bellow holds me a very dear memory, and I hope to keep expanding it.
             </div>
             <div className='travel-map'>
-              <div className='travel-map-geo'><PlotlyComponent data={this.state.data} layout={layout} onHover={this.onHover}/></div> 
+              <div className='travel-map-geo'><PlotlyComponent data={this.state.data} layout={layout} onHover={this.onHover} config={{displayModeBar: false}} /></div> 
               <div className='travel-photo-frame'>
                 <Paper className='travel-photo-paper' style={photoStyle}  zDepth={5}>
                   <img className='travel-photo' src={this.state.image} />

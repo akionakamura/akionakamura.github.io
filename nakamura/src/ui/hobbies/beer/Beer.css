@@ -28,7 +28,7 @@
   box-shadow: 2px 2px 15px #ccc;
 
   margin-left: 5%;
-  width: 80%;
+  max-width: 80%;
 }
 
 .beer-blockquote::before {
@@ -51,11 +51,29 @@
   content: "";
 }
 
-.beer-text {
+.beer-text{
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 24px;
   padding: 20px;
   margin-left: 5%;
   width: 80%;
+}
+
+.beer-scatter {
+  height: 300px;
+  margin:0 auto;
+  width: 90%;
+}
+.beer-pie {
+  float: left;
+  height: 210px;
+  margin-left: 5%;
+  width: 45%;
+}
+.beer-histogram {
+  float: right;
+  height: 210px;
+  margin-right: 5%;
+  width: 45%;
 }

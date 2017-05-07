@@ -9,9 +9,9 @@ import Travel from './travel/Travel';
 import Beer from './beer/Beer';
 import Motorcycle from './motorcycle/Motorcycle';
 
-const travelIcon = <FontIcon className="material-icons">location_on</FontIcon>;
-const beerIcon = <FontIcon className="material-icons">local_drink</FontIcon>;
-const motoIcon = <FontIcon className="material-icons">motorcycle</FontIcon>;
+const travelIcon = <FontIcon className='material-icons'>location_on</FontIcon>;
+const beerIcon = <FontIcon className='material-icons'>local_drink</FontIcon>;
+const motoIcon = <FontIcon className='material-icons'>motorcycle</FontIcon>;
 
 class Hobbies extends React.Component<any, any> {
   constructor() {

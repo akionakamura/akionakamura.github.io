@@ -11,6 +11,7 @@
     "@types/react": "^15.0.21",
     "@types/react-dom": "^0.14.23",
     "@types/react-tap-event-plugin": "0.0.30",
+    "@types/underscore": "^1.8.0",
     "bluebird": "^3.5.0",
     "font-awesome": "^4.7.0",
     "install": "^0.8.8",
@@ -25,7 +26,8 @@
     "react-plotlyjs": "^0.4.0",
     "react-tap-event-plugin": "^2.0.1",
     "roboto-fontface": "^0.7.0",
-    "typings": "^2.1.0"
+    "typings": "^2.1.0",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "protobufjs": "^6.7.3",

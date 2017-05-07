@@ -25,7 +25,12 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-
+a {
+  color: black;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: underline;
+}
 a.fa {
   color: #E0E0E0;
   font-size: 20px;
