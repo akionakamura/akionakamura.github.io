@@ -7,18 +7,18 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Thiago Akio Nakamura"
-title_separator          : "-"
+title                    : "Akio Nakamura"
+title_separator          : "|"
 name                     : &name "Thiago Akio Nakamura"
-description              : &description "personal description"
+description              : &description "A personal website"
 url                      : https://akionakamura.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "akionakamura/akionakamura.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            :
   discourse:
@@ -66,20 +66,25 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://github.com/akionakamura"
+    - "https://medium.com/@akionakas/"
+    - "https://www.facebook.com/akionakas"
+    - "https://www.linkedin.com/in/akionakas/"
+    - "https://www.instagram.com/akionakas"
 
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-105674165-1"
 
 
 # Site Author
 author:
   name             : "Thiago Akio Nakamura"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Home brewer, traveller, rider and software engineer in the spare time."
   location         : "Belo Horizonte, Brazil"
   employer         : "WorldSense"
   googlescholar    :
@@ -89,14 +94,14 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "https://www.facebook.com/akionakas"
+  facebook         : "akionakas"
   foursquare       :
-  github           : "https://github.com/akionakamura"
+  github           : "akionakamura"
   google_plus      :
   keybase          :
-  instagram        : "https://www.instagram.com/akionakas"
+  instagram        : "akionakas"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/akionakas/"
+  linkedin         : "akionakas"
   medium           : "https://medium.com/@akionakas/"
   orcid            :
   pinterest        :
@@ -266,6 +271,8 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+plugins:
+  - jekyll-seo-tag
 
 
 # Archives
