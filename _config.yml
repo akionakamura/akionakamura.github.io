@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "pt-BR"
+locale                   : "en-US"
 title                    : "Thiago Akio Nakamura"
 title_separator          : "-"
 name                     : &name "Thiago Akio Nakamura"
@@ -97,6 +97,7 @@ author:
   instagram        : "https://www.instagram.com/akionakas"
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/akionakas/"
+  medium           : "https://medium.com/@akionakas/"
   orcid            :
   pinterest        :
   soundcloud       :
