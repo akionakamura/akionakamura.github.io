@@ -11,7 +11,7 @@ title                    : "Akio Nakamura"
 title_separator          : "|"
 name                     : &name "Thiago Akio Nakamura"
 description              : &description "A personal website"
-url                      : https://akionakamura.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://akionakamura.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "akionakamura/akionakamura.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -254,7 +254,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Sao_Paulo # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -264,6 +264,7 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-seo-tag
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
