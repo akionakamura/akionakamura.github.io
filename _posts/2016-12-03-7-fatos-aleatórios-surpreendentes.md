@@ -22,11 +22,11 @@ Pronto? Ótimo, agora se divirta com essa charge do Calvin :)
 
 Legal, né? Enfim, se fosse pra adivinhar, eu diria que você escolheu a cor azul e o número 7. Eu posso até errar, mas a estatística está do meu lado.
 
-Recentemente compartilhei no Facebook um daqueles clássicos formulários de pesquisa do Google para que meus amigos me ajudassem em um trabalho para a faculdade. A pergunta era ainda mais simples, pedia apenas um número aleatório de 1 a 100, e muita gente ficou curiosa pra saber do que se tratava, mas eu não podia revelar para não atrapalhar o experimento. O trabalho era para uma disciplina de testes estatísticos, e nos propusemos a descobrir se humanos são bons em criar número aleatórios conscientemente ou não, para exercitar o que aprendemos durante o semestre. Achei a coisa toda tão legal que também resolvi escrever este post (prometo que não incluí nada complicado aqui). Então vamos aos fatos!
+Recentemente compartilhei no Facebook um daqueles clássicos [formulários de pesquisa do Google](https://goo.gl/forms/eTHssJfnWBXDvY1h1) para que meus amigos me ajudassem em um trabalho para a faculdade. A pergunta era ainda mais simples, pedia apenas um número aleatório de 1 a 100, e muita gente ficou curiosa pra saber do que se tratava, mas eu não podia revelar para não atrapalhar o experimento. O trabalho era para uma disciplina de testes estatísticos, e nos propusemos a descobrir se humanos são bons em criar número aleatórios conscientemente ou não, para exercitar o que aprendemos durante o semestre. Achei a coisa toda tão legal que também resolvi escrever este post (prometo que não incluí nada complicado aqui). Então vamos aos fatos!
 
 #1 Fenômeno azul-sete
 ------
-Existe um fenômeno psicológico chamado, em inglês, Blue-seven phenomena referenciado por vários estudos, que indicam que ao serem dadas opções semelhantes às que te dei acima, as pessoas consistentemente preferem a cor azul e o número sete, bem mais do que o esperado pelo acaso.
+Existe um fenômeno psicológico chamado, em inglês, Blue-seven phenomena referenciado por [vários](http://www.tandfonline.com/doi/abs/10.1080/00221309.1979.9920057?needAccess=true&journalCode=vgen20) [estudos](https://www.ncbi.nlm.nih.gov/pubmed/10597589), que indicam que ao serem dadas opções semelhantes às que te dei acima, as pessoas consistentemente preferem a cor azul e o número sete, bem mais do que o esperado pelo acaso.
 
 Os primeiros estudos foram realizados na década de 70, mas até hoje não se sabe exatamente o porquê dessa preferência universal. Algumas explicações dizem que o azul é a cor favorita mais comum e uma cor neutra e “tranquilizante” em muitas culturas, enquanto o número sete é comumente considerado um número de sorte.
 
@@ -36,7 +36,7 @@ Esta foi a primeira resposta que tivemos ao analisar os dados coletados para o t
 
 ![Distribuição dos números](/images/p1-g1.png)
 
-Veja acima como os números escolhidos ficaram distribuídos. O histograma mostra claramente uma não uniformidade e uma maior concentração nos números menores. O gráfico da direita ilustra um teste estatístico com nome de vodka, chamado Kolmogorov-Smirnov, onde quanto maior a distância entre a distribuição empírica (vermelha) da uniforme (azul), piores são os humanos em gerar números aleatórios.
+Veja acima como os números escolhidos ficaram distribuídos. O histograma mostra claramente uma não uniformidade e uma maior concentração nos números menores. O gráfico da direita ilustra um teste estatístico com nome de vodka, chamado [Kolmogorov-Smirnov](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test), onde quanto maior a distância entre a distribuição empírica (vermelha) da uniforme (azul), piores são os humanos em gerar números aleatórios.
 
 #3 O 7 é o número mais aleatório de todos!
 ------
@@ -48,7 +48,7 @@ Em 24% das vezes o número escolhido pelos voluntário terminou em 7, comparado 
 
 #4 O seu dia de nascimento é mais importante que o ano
 ------
-Não, não tem nada a ver com as bobagens dos horóscopos. É que por algum motivo (talvez tão misteriosos quanto a astrologia), as pessoas preferem escolher o dia em que nasceram, mas o mesmo não parece ocorrer para o ano (sim, nós também perguntamos a data de nascimento dos voluntários).
+Não, não tem nada a ver com as [bobagens dos horóscopos](http://super.abril.com.br/ciencia/verdades-inconvenientes-sobre-astrologia/). É que por algum motivo (talvez tão misteriosos quanto a astrologia), as pessoas preferem escolher o dia em que nasceram, mas o mesmo não parece ocorrer para o ano (sim, nós também perguntamos a data de nascimento dos voluntários).
 
 ![Relação com as datas](/images/p1-g3.png)
 
@@ -67,11 +67,11 @@ E com mais uma dose de vodka Kolmogorov-Smirnov, no gráfico do meio a gente vê
 ------
 Com as datas de aniversário de 626 pessoas em mãos, existem outros experimentos legais a fazer também. Das 626 observações que coletamos, 512 (ou 81,7%) não faziam aniversário sozinhos, um número que parece ser bem dentro do esperado.
 
-Mas pensando ao contrário, qual o tamanho um grupo de pessoas deve ter para que, com 50% de chance, duas pessoas façam aniversário no mesmo dia? 100? 50? Apenas 23. Este é o paradoxo do aniversário, pois 23 é um número bem baixo se comparado aos 365 dias do ano. Em um grupo de 57 pessoas, a probabilidade já é de mais de 99%.
+Mas pensando ao contrário, qual o tamanho um grupo de pessoas deve ter para que, com 50% de chance, duas pessoas façam aniversário no mesmo dia? 100? 50? Apenas 23. Este é o [paradoxo do aniversário](https://pt.wikipedia.org/wiki/Paradoxo_do_anivers%C3%A1rio), pois 23 é um número bem baixo se comparado aos 365 dias do ano. Em um grupo de 57 pessoas, a probabilidade já é de mais de 99%.
 
 #7 Números aleatórios no título do seu post aumentam o número de clicks
 ------
-Se você clickou nesse post esperando algo super legal e se deparou com um post de matemática, você foi uma vítima do chamado clickbaiting. Três das técnicas mais comuns de clickbaiting são posts do tipo lista e uso de números (principalmente ímpares) e de adjetivos nos títulos. Este post, afinal, não foi tão aleatório assim, mas este último item da lista, por outro lado, foi.
+Se você clickou nesse post esperando algo super legal e se deparou com um post de matemática, você foi uma vítima do chamado [clickbaiting](https://pt.wikipedia.org/wiki/Clickbait). [Três das técnicas](Três das técnicas) mais comuns de clickbaiting são posts do tipo lista e uso de números (principalmente ímpares) e de adjetivos nos títulos. Este post, afinal, não foi tão aleatório assim, mas este último item da lista, por outro lado, foi.
 
 -----
 
