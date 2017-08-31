@@ -1,22 +1,25 @@
 var addressPoints = [
-  [
-    "Berkeley CA, USA",
-    37.8708393,
-    -122.2728638
-  ],
-  [
-    "London, UK",
-    51.5073219,
-    -0.1276473
-  ],
-  [
-    "San Francisco, California",
-    37.7792808,
-    -122.4192362
-  ],
-  [
-    "Los Angeles, CA",
-    34.0543942,
-    -118.2439408
-  ]
-];
+    [ 'Aberdeen',          45.50,  -73.57],
+    [ 'Amsterdam',         43.40,  -79.24 ],
+    [ 'Athens',            49.13, -123.06 ],
+    [ 'Auschwitz',         51.10, -114.10 ],
+    [ 'Barcelona',         53.34, -113.28 ],
+    [ 'Bath',              45.24,  -75.43 ],
+    [ 'Beslfast',         -45.50,  -63.57 ],
+    [ 'Belo Horizonte',   -43.40, -123.21 ],
+    [ 'Berlin',           -49.13,  -97.13 ],
+    [ 'Blumenau',         -51.10, -104.60 ],
+    [ 'Bratislava',       -53.34,  -71.57 ],
+    [ 'Brussels',         -45.24,  -72.24 ],
+    [ 'Bucharest',         35.50, -110.06 ],
+    [ 'Budapest',          13.40,  -78.10 ],
+    [ 'Cabo da Roca',      39.13,  -98.28 ],
+    [ 'Cappadocia',         1.10,   75.43 ],
+    [ 'Chania',            43.34,   63.57 ],
+    [ 'Ciudad del Este',   25.24,  -12.21 ],
+    [ 'Cliffs of Moher',   75.50,   12.13 ],
+    [ 'Costa do Sauipe',  -23.40,  -10.60 ],
+    [ 'Dead Sea',          49.13,   13.21 ],
+    [ 'Dresden',           11.19,    1.13 ],
+    [ 'Dublin',            33.34,   54.60 ]
+  ];
