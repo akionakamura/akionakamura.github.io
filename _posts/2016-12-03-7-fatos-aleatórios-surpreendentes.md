@@ -8,17 +8,6 @@ tags:
   - fun
 ---
 
-This post was originally posted on my [Medium](https://medium.com/@akionakas/7-fatos-aleat%C3%B3rios-surpreendentes-db5ba0084950).
-
-Headings are cool
-======
-
-You can have many headings
-======
-
-Aren't headings cool?
-------
-
 Vamos começar com uma brincadeira rápida. Escolha uma das cores abaixo:
 
 ![Choose a color](/images/p1-cores.png)
@@ -29,7 +18,7 @@ E agora um número:
 
 Pronto? Ótimo, agora se divirta com essa charge do Calvin :)
 
-![Charge](/images/p1-charge.png)
+![Charge](/images/p1-charge.gif)
 
 Legal, né? Enfim, se fosse pra adivinhar, eu diria que você escolheu a cor azul e o número 7. Eu posso até errar, mas a estatística está do meu lado.
 
@@ -53,7 +42,7 @@ Veja acima como os números escolhidos ficaram distribuídos. O histograma mostr
 ------
 Nós pedimos números entre 1 e 100, e não somente até 10, mas semelhante ao Blue-seven phenomena, números terminados em 7 também foram os favoritos.
 
-![Últimos dígito](/images/p1-g21.png)
+![Últimos dígito](/images/p1-g2.png)
 
 Em 24% das vezes o número escolhido pelos voluntário terminou em 7, comparado com os 10% esperados. Vejam também que o primeiro final par aparece só em quinto na lista (o número 6), de forma que 65% dos números são ímpares. Claramente, o 7 é o número mais aleatório de todos!
 
@@ -91,3 +80,7 @@ Espero os mais math savvy me perdoem por algumas licenças poéticas matemática
 Acknowledgements
 ------
 Agradeço aos meus colegas de grupo que ajudaram na tarefa.
+
+-----
+
+This post was originally posted on my [Medium](https://medium.com/@akionakas/7-fatos-aleat%C3%B3rios-surpreendentes-db5ba0084950).
