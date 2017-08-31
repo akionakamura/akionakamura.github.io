@@ -1,12 +1,12 @@
 ---
-title: "Paper Title Number 3"
+title: "A Batch-Incremental Process Fault Detection and Diagnosis Using Mixtures of Probabilistic PCA"
 collection: publications
-permalink: /publications/2015-10-01-paper-title-number-3
-venue: "Journal 1"
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-paperurl: http://academicpages.github.io/files/paper3.pdf
-citation: 'Your Name, You. (2015). "Paper Title Number 3." <i>Journal 1</i>. 1(3).'
+permalink: /publications/2014-06-02-paper-batch-incremental-process
+venue: "Evolving and Adaptive Intelligent Systems 2014"
+excerpt: 'This paper proposes a batch-incremental method using mixtures of probabilistic principal components analysis (PCA) for process fault detection and diagnosis'
+date: 2014-06-02
+paperurl: http://akionakamura.github.io/files/2014-06-02-paper-batch-incremental-process.pdf
+citation: 'T. A. Nakamura, A. P. Lemos. "A batch-incremental process fault detection and diagnosis using mixtures of probabilistic PCA", <i>EEE Conference on Evolving and Adaptive Intelligent Systems</i> (2014), 1–8.'
 ---
 
 ## Abstract
@@ -22,7 +22,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-## Conclusion 
+## Conclusion
 
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
