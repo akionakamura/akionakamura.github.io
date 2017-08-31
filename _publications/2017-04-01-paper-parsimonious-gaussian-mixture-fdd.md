@@ -3,7 +3,7 @@ title: "Adaptive Fault Detection and Diagnosis Using Parsimonious Gaussian Mixtu
 collection: publications
 permalink: /publications/2017-04-01-paper-parsimonious-gaussian-mixture-fdd
 venue: "Journal of the Franklin Institute"
-excerpt: 'This paper an adaptive fault detection and diagnosis methodology using parsimonious faussian mixture models (PGMM) trained with distributed computing techniques.'
+excerpt: 'This paper proposes an adaptive fault detection and diagnosis methodology using parsimonious faussian mixture models (PGMM) trained with distributed computing techniques.'
 date: 2017-04-01
 paperurl: http://akionakamura.github.io/files/2017-04-01-paper-parsimonious-gaussian-mixture-fdd.pdf
 citation: 'T. A. Nakamura, R. M. Palhares, W. M. Caminhas, B. R. Menezes, M. C. M. M. de Campos, U. Fumega C. H. de M. Bomfim, A. P.Lemos. "Adaptive Fault Detection and Diagnosis Using Parsimonious Gaussian Mixture Models Trained with Distributed Computing Techniques", <i>Journal of the Franklin Institute</i> (2017), Volume 354, Issue 6, 2543-2572.'
