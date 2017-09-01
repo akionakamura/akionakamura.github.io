@@ -31,10 +31,14 @@
     			maxClusterRadius: 40
     			});
     		for (var i = 0; i < addressPoints.length; i++) {
-    			var a = addressPoints[i];
-    			var title = a[0];
-    			var marker = L.marker(new L.LatLng(a[1], a[2]), { title: title });
-    			marker.bindPopup('<img style="width:128px;height:128px;" src="' + a[3] + '" /> ' + '<div>' + title + '</div>');
+    			var point = addressPoints[i];
+                var title = point[0];
+                var latitude = point[1];
+                var longitude = point[2];
+                var img = point[3];
+                var marker = L.marker(new L.LatLng(latitude, longitude), { title: title });
+                var popupEl =' <img style="width:200px;height:200px;" src="' + img + '" /> ' + '<div>' + title + '</div>';
+    			marker.bindPopup(popupEl);
     			markers.addLayer(marker);
     		}
     		map.addLayer(markers);
