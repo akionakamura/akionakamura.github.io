@@ -14,4 +14,4 @@ This is under construction.
 
 For more info
 ------
-Don't hesitate to contact me through my social networks on my profile bar on the left :)
+Don't hesitate to contact me through my social networks on the profile bar on the left :)
