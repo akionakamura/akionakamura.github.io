@@ -1,6 +1,6 @@
 ---
 title: 'Como a Inteligência Artificial está mudando a publicidade online'
-date: 2017-09-0
+date: 2017-09-01
 permalink: /posts/2017/09/01/inteligencia-artificial-machine-learning-publicidade-online
 tags:
   - inteligência artificial
