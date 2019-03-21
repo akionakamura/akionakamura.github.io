@@ -17,6 +17,7 @@ var addressPoints = [
   ['Cappadocia', 38.643705, 34.835288, './images/Cappadocia.jpg'],
   ['Chania', 35.5122222, 24.0155556, './images/Chania.jpg'],
   // ['Ciudad del Este', -25.516667, -54.616667, './images/Ciudad del Este.jpg'],
+  ['Chile', -33.6579972,-70.0828111, './images/Chile.jpg'],
   ['Cliffs of Moher', 53.0669444, -9.4, './images/Cliffs of Moher.jpg'],
   ['Porto de Sauipe', -12.4, -37.916667, './images/Porto de Sauipe.jpg'],
   ['Dead Sea', 31.5, 35.3, './images/Dead Sea.jpg'],
