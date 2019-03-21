@@ -17,7 +17,7 @@ I've drifted a bit from the regular paths of my graduation to become a full stac
 
 Education
 ======
-* (Aug/2016 - Dez/2018 (expected)) Masters degree in Computational Intelligence from the Electrical Engineering department by the Federal University of Minas Gerais (UFMG)
+* (Aug/2016 - Dez/2018) Masters degree in Computational Intelligence from the Electrical Engineering department by the Federal University of Minas Gerais (UFMG)
 * (2009 - 2015) Undergraduate degree in Control and Automation Engineering by the Federal University of Minas Gerais (UFMG).
   - (Sep/2012 – Feb/2013) Academic Exchange Program in Mechanical Engineering by Fachhochschule Schmalkalden, Germany.
   - (Jan/2014 – Jan/2015) Academic Exchange Program in Electronic Engineering by Newcastle University, United Kingdom.
