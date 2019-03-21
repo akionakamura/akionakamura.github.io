@@ -1,4 +1,4 @@
--for---
+---
 title: "An anatomy for neural search engines"
 collection: publications
 permalink: /publications/2019-02-01-an-anatomy-for-neural-search-engine
